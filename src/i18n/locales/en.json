@@ -1,0 +1,81 @@
+{
+  "__name__": "English",
+  "base": {
+    "disabled": "Disable",
+    "empty": "No data yet",
+    "failure": "fail",
+    "input_placeholder": "Please enter",
+    "keyword_placeholder": "Please enter keywords",
+    "normal": "normal",
+    "remark": "Remark",
+    "search_placeholder": "search",
+    "select_placeholder": "Please select",
+    "stopped": "deactivate",
+    "table_no": "serial number"
+  },
+  "btn": {
+    "add": "New",
+    "cancel": "Cancel",
+    "confirm": "confirm",
+    "relogin": "Log in again",
+    "reset": "reset",
+    "save": "save",
+    "search": "search",
+    "tags": {
+      "close_all": "Close all",
+      "close_current": "closure",
+      "close_other": "Close other",
+      "refresh": "refresh"
+    }
+  },
+  "messages": {
+    "cancel": "Canceled",
+    "copied": "Copied",
+    "create_success": "Created successfully",
+    "delete_confirm_message": "Are you sure you want to delete {name}?",
+    "delete_confirm_title": "Confirm deletion",
+    "delete_fail": "Delete failed",
+    "delete_success": "Delete successfully",
+    "error_401": "Authentication failed and system resources cannot be accessed.",
+    "error_403": "There is no permission for the current operation",
+    "error_404": "Access resource does not exist",
+    "error_download": "There was an error downloading the file, please contact the administrator!",
+    "error_net_err": "Connection abnormality",
+    "error_net_timeout": "Connection timeout",
+    "error_other": "Unknown system error, please feedback to the administrator",
+    "error_server": "Server exception: {msg}",
+    "login_success": "Login successful",
+    "refresh_success": "Refreshed",
+    "relogin_tips": "Invalid session, or the session has expired, please log in again.",
+    "repeat_request": "Data is being processed, please do not resubmit",
+    "system_hint": "System prompt",
+    "theme_change_success": "Theme has been switched to {name}",
+    "update_success": "updated",
+    "uploading": "Uploading, please wait..."
+  },
+  "page": {
+    "login": {
+      "login": "Login",
+      "password_placeholder": "Please enter password",
+      "username_placeholder": "Please enter username"
+    },
+    "profile": {
+      "account_safe": "Account security",
+      "change_pwd_current_placeholder": "Current Password",
+      "change_pwd_success": "Password changed",
+      "change_pwd_title": "change password",
+      "email": "Mail",
+      "name": "Name",
+      "password": "password",
+      "set_pwd": "Set a password to protect your account."
+    },
+    "register": {
+      "confirm_pwd_placeholder": "Repeat password",
+      "pwd_len_8": "Password length is less than 8 characters",
+      "pwd_not_match": "Password does not match",
+      "pwd_not_strong": "Password needs to use a mix of letters, numbers and symbols",
+      "pwd_strong_tip": "Use 8 or more characters, mixing letters, numbers and symbols.",
+      "set_pwd_placeholder": "New Password"
+    }
+  }
+}

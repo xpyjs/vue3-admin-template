@@ -1,0 +1,43 @@
+:root {
+  /** Theme Colors。所有的基础颜色都在这里替换就可以 */
+  --x-bg-color: #fff;
+  --x-bg-second-color: #f7f9fb;
+  --x-bg-disabled-color: #f1f1f3;
+  --x-bg-placeholder-color: #fefeff;
+  --x-border-color: #e5e5e5;
+  --x-text-color: #000;
+  --x-toast-bg-color: rgba(0, 0, 0, 0.8);
+  --x-text-disabled-color: #1c1c1c;
+  --x-text-second-color: #a4a4a4;
+  --x-text-placeholder-color: #cecece;
+  --x-select-item-bg-color: #f3f3f3;
+
+  --x-menu-active-bg-color: #f2f2f2;
+
+  // @alias
+  --x-color-primary: var(--el-color-primary);
+
+  /** layout */
+  --nav-height: 68px;
+  --menu-min-width: 80px;
+  --menu-max-width: 212px;
+}
+
+// 自定义颜色需要适配暗黑模式
+html.dark {
+  color-scheme: dark;
+
+  --x-bg-color: #000;
+  --x-bg-second-color: #151515;
+  --x-bg-disabled-color: #1a1a1a;
+  --x-bg-placeholder-color: #010100;
+  --x-text-color: #fff;
+  --x-toast-bg-color: rgba(255, 255, 255, 0.8);
+  --x-text-disabled-color: #bfbfbf;
+  --x-text-second-color: #6c6c6c;
+  --x-text-placeholder-color: #414141;
+  --x-border-color: #333;
+  --x-select-item-bg-color: #333;
+
+  --x-menu-active-bg-color: #3f3f3f;
+}

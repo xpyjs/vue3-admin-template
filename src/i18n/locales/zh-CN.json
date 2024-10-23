@@ -1,0 +1,81 @@
+{
+  "__name__": "简体中文",
+  "base": {
+    "disabled": "禁用",
+    "empty": "暂无数据",
+    "failure": "失败",
+    "input_placeholder": "请输入",
+    "keyword_placeholder": "请输入关键字",
+    "normal": "正常",
+    "remark": "备注",
+    "search_placeholder": "搜索",
+    "select_placeholder": "请选择",
+    "stopped": "停用",
+    "table_no": "编号"
+  },
+  "btn": {
+    "add": "新增",
+    "cancel": "取消",
+    "confirm": "确认",
+    "relogin": "重新登录",
+    "reset": "重置",
+    "save": "保存",
+    "search": "搜索",
+    "tags": {
+      "close_all": "关闭全部",
+      "close_current": "关闭",
+      "close_other": "关闭其他",
+      "refresh": "刷新"
+    }
+  },
+  "messages": {
+    "cancel": "已取消",
+    "copied": "已复制",
+    "create_success": "创建成功",
+    "delete_confirm_message": "确认删除 {name} 吗？",
+    "delete_confirm_title": "确认删除",
+    "delete_fail": "删除失败",
+    "delete_success": "删除成功",
+    "error_401": "认证失败，无法访问系统资源",
+    "error_403": "当前操作没有权限",
+    "error_404": "访问资源不存在",
+    "error_download": "下载文件出现错误，请联系管理员！",
+    "error_net_err": "连接异常",
+    "error_net_timeout": "连接超时",
+    "error_other": "系统未知错误，请反馈给管理员",
+    "error_server": "服务器异常: {msg}",
+    "login_success": "登录成功",
+    "refresh_success": "已刷新",
+    "relogin_tips": "无效的会话，或者会话已过期，请重新登录。",
+    "repeat_request": "数据正在处理，请勿重复提交",
+    "system_hint": "系统提示",
+    "theme_change_success": "主题已切换至 {name}",
+    "update_success": "已更新",
+    "uploading": "上传中，请稍后..."
+  },
+  "page": {
+    "login": {
+      "login": "登录",
+      "password_placeholder": "请输入密码",
+      "username_placeholder": "请输入用户名"
+    },
+    "profile": {
+      "account_safe": "账号安全",
+      "change_pwd_current_placeholder": "当前密码",
+      "change_pwd_success": "密码已更改",
+      "change_pwd_title": "更改密码",
+      "email": "邮箱",
+      "name": "姓名",
+      "password": "密码",
+      "set_pwd": "设置密码以保护您的账户。"
+    },
+    "register": {
+      "confirm_pwd_placeholder": "重复密码",
+      "pwd_len_8": "密码长度不足8位",
+      "pwd_not_match": "密码不匹配",
+      "pwd_not_strong": "密码需要使用混合字母，数字和符号",
+      "pwd_strong_tip": "使用8个或更多的字符，混合字母，数字和符号。",
+      "set_pwd_placeholder": "新密码"
+    }
+  }
+}

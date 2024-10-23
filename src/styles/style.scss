@@ -1,0 +1,56 @@
+:root {
+  color-scheme: light dark;
+
+  color: var(--x-text-color);
+  font-size: 14px;
+  font-family:
+    PingFang SC,
+    PingFang SC-Regular;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw !important;
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+html {
+  background-color: #f7f9fb;
+}
+html.dark {
+  background-color: #1c1c1c;
+}
+
+#app {
+  margin: 0 auto;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  // min-height: 800px;
+  // min-width: 1200px;
+}
+
+.x-link {
+  color: var(--x-color-primary);
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.2s;
+  font-size: 12px;
+  &:hover {
+    color: var(--el-color-primary-light-5);
+  }
+  &:active {
+    color: var(--el-color-primary-dark-2);
+  }
+}
